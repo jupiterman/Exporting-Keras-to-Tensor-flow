@@ -2,73 +2,67 @@
 A set of models which allow easy creation of Keras models to be used for classification purposes. Also contains
 modules which offer implementations of recent papers.
 
-# **NOTE**
-Since this readme is getting very large, I will post most of these projects on [titu1994.github.io](http://titu1994.github.io)
 
-# Image Classification Models
-
-#  <a href="https://github.com/titu1994/keras-SparseNet">Sparse Neural Networks (SparseNets) in Keras</a>
-An implementation of "SparseNets" from the paper [Sparsely Connected Convolutional Networks](https://arxiv.org/abs/1801.05895) in Keras 2.0+.
 
 SparseNets are a modification of DenseNet and its dense connectivity pattern to reduce memory requirements drastically while still having similar or better performance.
 
 -----
 
-# <a href="https://github.com/titu1994/keras-non-local-nets">Non-Local Neural Networks in Keras</a>
+# <a href="https://github.com/Abhishek/keras-non-local-nets">Non-Local Neural Networks in Keras</a>
 Keras implementation of Non-local blocks from the paper ["Non-local Neural Networks"](https://arxiv.org/abs/1711.07971).
 
 - Support for "Gaussian", "Embedded Gaussian" and "Dot" instantiations of the Non-Local block.
 - Support for shielded computation mode (reduces computation by 4x)
 - Support for "Concatenation" instantiation will be supported when authors release their code.
 
-Available at : <a href="https://github.com/titu1994/keras-non-local-nets">Non-Local Neural Networks in Keras</a>
+Available at : <a href="https://github.com/Abhishek/keras-non-local-nets">Non-Local Neural Networks in Keras</a>
 
 -----
 
-#  <a href="https://github.com/titu1994/Keras-NASNet">Neural Architecture Search Net (NASNet) in Keras</a>
+#  <a href="https://github.com/Abhishek/Keras-NASNet">Neural Architecture Search Net (NASNet) in Keras</a>
 An implementation of "NASNet" models from the paper [Learning Transferable Architectures for Scalable Image Recognitio](https://arxiv.org/abs/1707.07012) in Keras 2.0+.
 
 Supports building NASNet Large (6 @ 4032), NASNet Mobile (4 @ 1056) and custom NASNets. 
 
-Available at : <a href="https://github.com/titu1994/Keras-NASNet">Neural Architecture Search Net (NASNet) in Keras</a>
+Available at : <a href="https://github.com/Abhishek/Keras-NASNet">Neural Architecture Search Net (NASNet) in Keras</a>
 
 -----
 
-#  <a href="https://github.com/titu1994/keras-squeeze-excite-network">Squeeze and Excite Networks in Keras</a>
+#  <a href="https://github.com/Abhishek/keras-squeeze-excite-network">Squeeze and Excite Networks in Keras</a>
 Implementation of Squeeze and Excite networks in Keras. Supports ResNet and Inception v3 models currently. Support for Inception v4 and Inception-ResNet-v2 will also come once the paper comes out.
 
-Available at : <a href="https://github.com/titu1994/keras-squeeze-excite-network">Squeeze and Excite Networks in Keras</a>
+Available at : <a href="https://github.com/Abhishek/keras-squeeze-excite-network">Squeeze and Excite Networks in Keras</a>
 
 -----
 
-# <a href="https://github.com/titu1994/Keras-DualPathNetworks">Dual Path Networks in Keras</a>
+# <a href="https://github.com/Abhishek/Keras-DualPathNetworks">Dual Path Networks in Keras</a>
 Implementation of [Dual Path Networks](https://arxiv.org/abs/1707.01629), which combine the grouped convolutions of ResNeXt with the dense connections of DenseNet into two path
 
-Available at : <a href="https://github.com/titu1994/MobileNetworks">Dual Path Networks in Keras</a>
+Available at : <a href="https://github.com/Abhishek/MobileNetworks">Dual Path Networks in Keras</a>
 
 -----
 
-# <a href="https://github.com/titu1994/MobileNetworks">MobileNets in Keras</a>
+# <a href="https://github.com/Abhishek/MobileNetworks">MobileNets in Keras</a>
 Implementation of MobileNet models from the paper [MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications](https://arxiv.org/pdf/1704.04861.pdf) in Keras 2.0+.
 
 Contains code for building the MobileNet model (optimized for datasets similar to ImageNet) and weights for the model trained on ImageNet.
 
 Also contains MobileNet V2 model implementations + weights.
 
-Available at : <a href="https://github.com/titu1994/MobileNetworks">MobileNets in Keras</a>
+Available at : <a href="https://github.com/Abhishek/MobileNetworks">MobileNets in Keras</a>
 
 -----
 
-# <a href="https://github.com/titu1994/Keras-ResNeXt">ResNeXt in Keras</a>
+# <a href="https://github.com/Abhishek/Keras-ResNeXt">ResNeXt in Keras</a>
 Implementation of ResNeXt models from the paper [Aggregated Residual Transformations for Deep Neural Networks](https://arxiv.org/pdf/1611.05431.pdf) in Keras 2.0+.
 
 Contains code for building the general ResNeXt model (optimized for datasets similar to CIFAR) and ResNeXtImageNet (optimized for the ImageNet dataset).
 
-Available at : <a href="https://github.com/titu1994/Keras-ResNeXt">ResNeXt in Keras</a>
+Available at : <a href="https://github.com/Abhishek/Keras-ResNeXt">ResNeXt in Keras</a>
 
 -----
 
-# <a href="https://github.com/titu1994/Inception-v4">Inception v4 in Keras</a>
+# <a href="https://github.com/Abhishek/Inception-v4">Inception v4 in Keras</a>
 Implementations of the Inception-v4, Inception - Resnet-v1 and v2 Architectures in Keras using the Functional API. 
 The paper on these architectures is available at <a href="https://arxiv.org/pdf/1602.07261v1.pdf">"Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning".</a>
 
@@ -77,11 +71,11 @@ Due to lack of suitable training data (ILSVR 2015 dataset) and limited GPU proce
 
 Contains : Inception v4, Inception-ResNet-v1 and Inception-ResNet-v2
 
-Available at : <a href="https://github.com/titu1994/Inception-v4">Inception v4 in Keras </a>
+Available at : <a href="https://github.com/Abhishek/Inception-v4">Inception v4 in Keras </a>
 
 -----
 
-# <a href="https://github.com/titu1994/Wide-Residual-Networks">Wide Residual Networks in Keras</a>
+# <a href="https://github.com/Abhishek/Wide-Residual-Networks">Wide Residual Networks in Keras</a>
 Implementation of Wide Residual Networks from the paper <a href="https://arxiv.org/pdf/1605.07146v1.pdf">Wide Residual Networks</a>
 
 ## Usage
@@ -100,11 +94,11 @@ model = Model(ip, wrn_28_10)
 
 Contains weights for WRN-16-8 and WRN-28-8 models trained on the CIFAR-10 Dataset.
 
-Available at : <a href="https://github.com/titu1994/Wide-Residual-Networks">Wide Residual Network in Keras</a>
+Available at : <a href="https://github.com/Abhishek/Wide-Residual-Networks">Wide Residual Network in Keras</a>
 
 ------
 
-# <a href="https://github.com/titu1994/DenseNet">DenseNet in Keras</a>
+# <a href="https://github.com/Abhishek/DenseNet">DenseNet in Keras</a>
 Implementation of DenseNet from the paper [Densely Connected Convolutional Networks](https://arxiv.org/pdf/1608.06993v1.pdf).
 
 ## Usage
@@ -114,11 +108,11 @@ Implementation of DenseNet from the paper [Densely Connected Convolutional Netwo
 
 Contains weights for DenseNet-40-12 and DenseNet-Fast-40-12, trained on CIFAR 10.
 
-Available at : <a href="https://github.com/titu1994/DenseNet">DenseNet in Keras</a>
+Available at : <a href="https://github.com/Abhishek/DenseNet">DenseNet in Keras</a>
 
 -----
 
-# <a href="https://github.com/titu1994/Residual-of-Residual-Networks">Residual Networks of Residual Networks in Keras</a>
+# <a href="https://github.com/Abhishek/Residual-of-Residual-Networks">Residual Networks of Residual Networks in Keras</a>
 Implementation of the paper ["Residual Networks of Residual Networks: Multilevel Residual Networks"](https://arxiv.org/pdf/1608.02908v1.pdf)
 
 ## Usage
@@ -139,22 +133,22 @@ model = ror.create_pre_residual_of_residual(input_dim, nb_classes=100, N=6, k=2,
 ```
 Contains weights for RoR-3-WRN-40-2 trained on CIFAR 10
 
-Available at : <a href="https://github.com/titu1994/Residual-of-Residual-Networks">Residual Networks of Residual Networks in Keras</a>
+Available at : <a href="https://github.com/Abhishek/Residual-of-Residual-Networks">Residual Networks of Residual Networks in Keras</a>
 
 -----
 
 # Neural Architecture Search
 
-# <a href="https://github.com/titu1994/pyshac">Sequentual Halving and Classification</a>
+# <a href="https://github.com/Abhishek/pyshac">Sequentual Halving and Classification</a>
 
 PySHAC is a python library to use the Sequential Halving and Classification algorithm from the paper [Parallel Architecture and Hyperparameter Search via Successive Halving and Classification](https://arxiv.org/abs/1805.10255) with ease.
 
-Available at : <a href="https://github.com/titu1994/pyshac">Sequentual Halving and Classification</a>
-Documentation available at : <a href="http://titu1994.github.io/pyshac/">PySHAC Documentation</a>
+Available at : <a href="https://github.com/Abhishek/pyshac">Sequentual Halving and Classification</a>
+Documentation available at : <a href="http://Abhishek.github.io/pyshac/">PySHAC Documentation</a>
 
 -----
 
-# <a href="https://github.com/titu1994/progressive-neural-architecture-search">Progressive Neural Architecture Search in Keras</a>
+# <a href="https://github.com/Abhishek/progressive-neural-architecture-search">Progressive Neural Architecture Search in Keras</a>
 Basic implementation of Encoder RNN from the paper ["Progressive Neural Architecture Search"]https://arxiv.org/abs/1712.00559), which is an improvement over the original Neural Architecture Search paper since it requires far less time and resources.
 
 - Uses Keras to define and train children / generated networks, which are defined in Tensorflow by the Encoder RNN.
@@ -162,11 +156,11 @@ Basic implementation of Encoder RNN from the paper ["Progressive Neural Architec
 - Encoder RNN trained using a modified Sequential Model Based Optimization algorithm from the paper. Some stability modifications made by me to prevent extreme variance when training to cause failed training.
 - NetworkManager handles the training and reward computation of a Keras model
 
-Available at : <a href="https://github.com/titu1994/progressive-neural-architecture-search">Progressive Neural Architecture Search in Keras</a>
+Available at : <a href="https://github.com/Abhishek/progressive-neural-architecture-search">Progressive Neural Architecture Search in Keras</a>
 
 -----
 
-# <a href="https://github.com/titu1994/neural-architecture-search">Neural Architecture Search in Keras</a>
+# <a href="https://github.com/Abhishek/neural-architecture-search">Neural Architecture Search in Keras</a>
 Basic implementation of Controller RNN from the paper ["Neural Architecture Search with Reinforcement Learning
 "](https://arxiv.org/abs/1611.01578) and ["Learning Transferable Architectures for Scalable Image Recognition"](https://arxiv.org/abs/1707.07012).
 
@@ -175,7 +169,7 @@ Basic implementation of Controller RNN from the paper ["Neural Architecture Sear
 - Reinforce manages the training and evaluation of the Controller RNN
 - NetworkManager handles the training and reward computation of a Keras model
 
-Available at : <a href="https://github.com/titu1994/neural-architecture-search">Neural Architecture Search in Keras</a>
+Available at : <a href="https://github.com/Abhishek/neural-architecture-search">Neural Architecture Search in Keras</a>
 
 -----
 
@@ -183,7 +177,7 @@ Available at : <a href="https://github.com/titu1994/neural-architecture-search">
 
 A set of models which allow easy creation of Keras models to be used for segmentation tasks.
 
-# <a href="https://github.com/titu1994/Fully-Connected-DenseNets-Semantic-Segmentation">Fully Connected DenseNets for Semantic Segmentation</a>
+# <a href="https://github.com/Abhishek/Fully-Connected-DenseNets-Semantic-Segmentation">Fully Connected DenseNets for Semantic Segmentation</a>
 Implementation of the paper [The One Hundred Layers Tiramisu : Fully Convolutional DenseNets for Semantic Segmentation](https://arxiv.org/pdf/1611.09326v1.pdf)
 
 ## Usage
@@ -204,7 +198,7 @@ A set of scripts which can be used to add custom Recurrent Neural Networks to Ke
 
 -----
 
-# <a href="https://github.com/titu1994/Keras-just-another-network-JANET">Chrono Initializer, Chrono LSTM and JANET</a>
+# <a href="https://github.com/Abhishek/Keras-just-another-network-JANET">Chrono Initializer, Chrono LSTM and JANET</a>
 Keras implementation of the paper [The unreasonable effectiveness of the forget gate](https://arxiv.org/abs/1804.04849) and the Chrono initializer and Chrono LSTM from the paper [Can Recurrent Neural Networks Warp Time?](https://openreview.net/pdf?id=SJcKhk-Ab). 
 
 This model utilizes just 2 gates - forget (f) and context (c) gates out of the 4 gates in a regular LSTM RNN, and uses `Chrono Initialization` to acheive better performance than regular LSTMs while using fewer parameters and less complicated gating structure.
@@ -229,7 +223,7 @@ To use just the `ChronoInitializer`, import the `chrono_initializer.py` script.
 
 -----
 
-# <a href="https://github.com/titu1994/Keras-IndRNN">Independently Recurrent Neural Networks (SRU)</a>
+# <a href="https://github.com/Abhishek/Keras-IndRNN">Independently Recurrent Neural Networks (SRU)</a>
 Implementation of the paper [Independently Recurrent Neural Network (IndRNN): Building A Longer and Deeper RNN](https://arxiv.org/abs/1803.04831) for Keras 2.0+. IndRNN is a recurrent unit that can run over extremely long time sequences, able to learn the additional problem over 5000 timesteps where most other models fail..
 
 ## Usage
@@ -252,7 +246,7 @@ x = IndRNN(128)(x)
 ```
 -----
 
-# <a href="https://github.com/titu1994/keras-SRU">Simple Recurrent Unit (SRU)</a>
+# <a href="https://github.com/Abhishek/keras-SRU">Simple Recurrent Unit (SRU)</a>
 Implementation of the paper [Training RNNs as Fast as CNNs](https://arxiv.org/abs/1709.02755) for Keras 2.0+. SRU is a recurrent unit that can run over 10 times faster than cuDNN LSTM, without loss of accuracy tested on many tasks, when implemented with a custom CUDA kernel.
 
 This is a naive implementation with some speed gains over the generic LSTM cells, however its speed is not yet 10x that of cuDNN LSTMs.
@@ -260,7 +254,7 @@ This is a naive implementation with some speed gains over the generic LSTM cells
 -----
 
 
-# <a href="https://github.com/titu1994/Keras-Multiplicative-LSTM">Multiplicative LSTM</a>
+# <a href="https://github.com/Abhishek/Keras-Multiplicative-LSTM">Multiplicative LSTM</a>
 Implementation of the paper [Multiplicative LSTM for sequence modelling](https://arxiv.org/pdf/1609.07959.pdf) for Keras 2.0+. Multiplicative LSTMs have been shown to achieve state-of-the-art or close to SotA results for sequence modelling datasets. They also perform better than stacked LSTM models for the Hutter-prize dataset and the raw wikipedia dataset.
 
 
@@ -274,7 +268,7 @@ from multiplicative_lstm import MultiplicativeLSTM
 ```
 -----
 
-# <a href="https://github.com/titu1994/keras-minimal-rnn">Minimal RNN</a>
+# <a href="https://github.com/Abhishek/keras-minimal-rnn">Minimal RNN</a>
 Implementation of the paper [MinimalRNN: Toward More Interpretable and Trainable Recurrent Neural Networks
 ](https://arxiv.org/abs/1711.06788) for Keras 2.0+. Minimal RNNs are a new recurrent neural network architecture that achieves comparable performance as the popular gated RNNs with a simplified structure. It employs minimal updates within RNN, which not only leads to efficient learning and testing but more importantly better interpretability and trainability
 
@@ -292,7 +286,7 @@ x = MinimalRNN(units=128)(ip)
 ```
 -----
 
-# <a href="https://github.com/titu1994/Nested-LSTM">Nested LSTM</a>
+# <a href="https://github.com/Abhishek/Nested-LSTM">Nested LSTM</a>
 Implementation of the paper [Nested LSTMs](https://arxiv.org/abs/1801.10308) for Keras 2.0+. Nested LSTMs add depth to LSTMs via nesting as opposed to stacking. The value of a memory cell in an NLSTM is computed by an LSTM cell, which has its own inner memory cell. Nested LSTMs outperform both stacked and single-layer LSTMs with similar numbers of parameters in our experiments on various character-level language modeling tasks, and the inner memories of an LSTM learn longer term dependencies compared with the higher-level units of a stacked LSTM
 
 ## Usage
@@ -311,7 +305,7 @@ A set of scripts which can be used to add advanced functionality to Keras.
 
 -----
 
-# <a href="https://github.com/titu1994/keras-switchnorm">Switchable Normalization for Keras</a>
+# <a href="https://github.com/Abhishek/keras-switchnorm">Switchable Normalization for Keras</a>
 Switchable Normalization is a normalization technique that is able to learn different normalization operations for different normalization layers in a deep neural network in an end-to-end manner.
 
 Keras port of the implementation of the paper Differentiable Learning-to-Normalize via Switchable Normalization.
@@ -336,7 +330,7 @@ x = SwitchNormalization(axis=-1)(x)
 
 -----
 
-# <a href="https://github.com/titu1994/Keras-Group-Normalization">Group Normalization for Keras</a>
+# <a href="https://github.com/Abhishek/Keras-Group-Normalization">Group Normalization for Keras</a>
 A Keras implementation of [Group Normalization](https://arxiv.org/abs/1803.08494) by Yuxin Wu and Kaiming He.
 
 Useful for fine-tuning of large models on smaller batch sizes than in research setting (where batch size is very large due to multiple GPUs). Similar to Batch Renormalization, but performs significantly better on ImageNet.
@@ -360,7 +354,7 @@ x = GroupNormalization(groups=32, axis=-1)
 
 -----
 
-# <a href="https://github.com/titu1994/keras-normalized-optimizers">Normalized Optimizers for Keras</a>
+# <a href="https://github.com/Abhishek/keras-normalized-optimizers">Normalized Optimizers for Keras</a>
 Keras wrapper class for Normalized Gradient Descent from [kmkolasinski/max-normed-optimizer](https://github.com/kmkolasinski/deep-learning-notes/tree/master/max-normed-optimizer), which can be applied to almost all Keras optimizers.
 
 Partially implements [Block-Normalized Gradient Method: An Empirical Study for Training Deep Neural Network](https://arxiv.org/abs/1707.04822) for all base Keras optimizers, and allows flexibility to choose any normalizing function. It does not implement adaptive learning rates however.
@@ -380,12 +374,12 @@ adam = NormalizedOptimizer(adam, normalization='l2')
 
 -----
 
-# <a href="https://github.com/titu1994/tf-eager-examples">Tensorflow Eager with Keras APIs</a>
+# <a href="https://github.com/Abhishek/tf-eager-examples">Tensorflow Eager with Keras APIs</a>
 A set of example notebooks and scripts which detail the usage and pitfalls of Eager Execution Mode in Tensorflow using Keras high level APIs.
 
 -----
 
-# <a href="https://github.com/titu1994/keras-one-cycle">One Cycle Learning Rate Policy for Keras</a>
+# <a href="https://github.com/Abhishek/keras-one-cycle">One Cycle Learning Rate Policy for Keras</a>
 Implementation of One-Cycle Learning rate policy from the papers by Leslie N. Smith.
 
 - [A disciplined approach to neural network hyper-parameters: Part 1 -- learning rate, batch size, momentum, and weight decay](https://arxiv.org/abs/1803.09820)
@@ -393,7 +387,7 @@ Implementation of One-Cycle Learning rate policy from the papers by Leslie N. Sm
 
 -----
 
-# <a href="https://github.com/titu1994/BatchRenormalization">Batch Renormalization</a>
+# <a href="https://github.com/Abhishek/BatchRenormalization">Batch Renormalization</a>
 Batch Renormalization algorithm implementation in Keras 1.2.1. Original paper by Sergey Ioffe, [Batch Renormalization: Towards Reducing Minibatch Dependence in Batch-Normalized Models](https://arxiv.org/pdf/1702.03275.pdf).\
 
 ## Usage
@@ -407,8 +401,8 @@ from batch_renorm import BatchRenormalization
 -----
 
 
-# <a href='https://github.com/titu1994/Snapshot-Ensembles'>Snapshot Ensembles in Keras</a>
-Implementation of the paper [Snapshot Ensembles](https://github.com/titu1994/Snapshot-Ensembles)
+# <a href='https://github.com/Abhishek/Snapshot-Ensembles'>Snapshot Ensembles in Keras</a>
+Implementation of the paper [Snapshot Ensembles](https://github.com/Abhishek/Snapshot-Ensembles)
 
 ## Usage
 The technique is simple to implement in Keras, using a custom callback. These callbacks can be built using the SnapshotCallbackBuilder class in snapshot.py. Other models can simply use this callback builder to other models to train them in a similar manner.
@@ -419,7 +413,7 @@ The technique is simple to implement in Keras, using a custom callback. These ca
 
 Contains weights for WRN-CIFAR100-16-4 and WRN-CIFAR10-16-4 (snapshot ensemble weights - ranging from 1-5 and including single best model)
 
-Available at : <a href='https://github.com/titu1994/Snapshot-Ensembles'>Snapshot Ensembles in Keras</a>
+Available at : <a href='https://github.com/Abhishek/Snapshot-Ensembles'>Snapshot Ensembles in Keras</a>
 
 -----
 
